@@ -11,8 +11,10 @@ def __init__(self):
     #Methods:
         #turnOn(): None
         def turnOn(self):
-        self.on = True
+            self.on = True
         #turnOff(): None
+        def turnOff(self):
+            self.on = False
         #getChannel(): int
         #setChannel(channel: int): None
         #getVolume(): int

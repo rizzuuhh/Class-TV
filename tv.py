@@ -38,6 +38,9 @@ def __init__(self):
             if self.on and self.channel > 1:
                 self.channel -= 1
         #volumeUp(): None
+        def volumeUp(self):
+            if self.on and self.volumeLevel < 7:
+                self.volumeLevel += 1
         #volumeDown(): None
 
 

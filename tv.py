@@ -42,6 +42,9 @@ def __init__(self):
             if self.on and self.volumeLevel < 7:
                 self.volumeLevel += 1
         #volumeDown(): None
+        def volumeDown(self):
+            if self.on and self.volumeLevel > 1:
+                self.volumeLevel -= 1
 
 
 #Create an instance of TV called tv1

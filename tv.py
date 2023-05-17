@@ -25,8 +25,11 @@ def __init__(self):
         #getVolume(): int
         def getVolume(self):
             return self.volumeLevel
-
         #setVolume(volumeLevel: int): None
+        def setVolume(self, volumeLevel):
+            if self.on and 1 <= volumeLevel <= 7:
+                self.volumeLevel = volumeLevel
+
         #channelUp(): None
         #channelDown(): None
         #volumeUp(): None

@@ -10,6 +10,8 @@ def __init__(self):
 
     #Methods:
         #turnOn(): None
+        def turnOn(self):
+        self.on = True
         #turnOff(): None
         #getChannel(): int
         #setChannel(channel: int): None

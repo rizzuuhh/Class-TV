@@ -16,6 +16,9 @@ def __init__(self):
         def turnOff(self):
             self.on = False
         #getChannel(): int
+        def getChannel(self):
+            return self.channel
+
         #setChannel(channel: int): None
         #getVolume(): int
         #setVolume(volumeLevel: int): None

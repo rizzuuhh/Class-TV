@@ -18,8 +18,11 @@ def __init__(self):
         #getChannel(): int
         def getChannel(self):
             return self.channel
-
         #setChannel(channel: int): None
+        def setChannel(self, channel):
+            if self.on and 1 <= channel <= 120:
+                self.channel = channel
+
         #getVolume(): int
         #setVolume(volumeLevel: int): None
         #channelUp(): None

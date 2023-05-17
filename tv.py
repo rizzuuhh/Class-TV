@@ -34,6 +34,9 @@ def __init__(self):
             if self.on and self.channel < 120:
                 self.channel += 1
         #channelDown(): None
+        def channelDown(self):
+            if self.on and self.channel > 1:
+                self.channel -= 1
         #volumeUp(): None
         #volumeDown(): None
 

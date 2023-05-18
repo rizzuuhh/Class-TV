@@ -5,7 +5,6 @@ from tv import TV
 def print_tv_info(tv_name, channel, volume_level):
     print(f"{tv_name}'s channel is {channel} and volume level is {volume_level}\n")
 
-
 #Turn on tv1
 #Set tv1's channel to 30
 #Set tv1's volume level to 3

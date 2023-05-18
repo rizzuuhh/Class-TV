@@ -1,9 +1,12 @@
 #Create an instance of TV called tv1
 #Create an instance of TV called tv2
+from pyfiglet import Figlet
 from tv import TV
 
 def print_tv_info(tv_name, channel, volume_level):
-    print(f"{tv_name}'s channel is {channel} and volume level is {volume_level}\n")
+    f = Figlet(font='slant')
+    print(f.renderText(tv_name))
+    print(f"\033[96m{tv_name}'s channel is {channel} and volume level is {volume_level}\n \033[95m")
 
 tv1 = TV()
 tv2 = TV()

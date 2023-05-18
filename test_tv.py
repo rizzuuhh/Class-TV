@@ -10,6 +10,7 @@ tv2 = TV()
 #Turn on tv1
 tv1.turnOn()
 #Set tv1's channel to 30
+tv1.setChannel(30)
 #Set tv1's volume level to 3
 
 

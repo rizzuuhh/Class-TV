@@ -25,3 +25,4 @@ tv2.setVolume(2)
 #Print tv1's information
 print_tv_info("Tv1", tv1.getChannel(), tv1.getVolume())
 #Print tv2's information
+print_tv_info("Tv2", tv2.getChannel(), tv2.getVolume())

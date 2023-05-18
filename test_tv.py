@@ -16,6 +16,7 @@ tv1.setVolume(3)
 
 
 #Turn on tv2
+tv2.turnOn()
 #Set tv2's channel to 3
 #Set tv2's volume level to 2
 
